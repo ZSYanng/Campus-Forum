@@ -1,0 +1,15 @@
+server:
+  port: 8011
+
+spring:
+  application:
+    name: service-order
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://106.52.105.206:54321/postgres
+    username: postgres
+    password: cs304_se_1113
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848

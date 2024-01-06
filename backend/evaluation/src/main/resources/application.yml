@@ -1,0 +1,17 @@
+server:
+  port: 8051
+
+spring:
+  application:
+    name: service-eval
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://106.52.105.206:54321/postgres
+    username: postgres
+    password: cs304_se_1113
+  http:
+    multipart:
+      max-file-size: 20MB
+  servlet:
+    multipart:
+      enabled: true
