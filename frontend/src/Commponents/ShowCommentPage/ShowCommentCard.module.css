@@ -1,0 +1,13 @@
+.commentCard {
+    margin: 3vh 1vw;
+    width: 19vw;
+    /* height: 20vh; */
+}
+
+.commentRate {
+    font-size: 1.5vh;
+}
+
+.imgSize {
+    height: 25vh;
+}

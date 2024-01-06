@@ -1,0 +1,202 @@
+.maskbox {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255, .3);
+    transition: 1s;
+}
+
+.talk_box {
+    position: fixed;
+    top: 15vh;
+    left: 25vw;
+    background-color: #fff;
+    width: 50vw;
+    height: 74vh;
+    border-radius: 5px;
+    /* padding: 2vh 0; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+
+}
+
+.userBox {
+    width: 11vw;
+    height: 60vh;
+    padding: 2vh 0;
+    padding-left: 1vw;
+    margin-left: .5vw;
+    margin-top: 2vh;
+    /* box-shadow: -1px -1px 5px rgb(0, 0, 0, .3); */
+    z-index: 1;
+    border-right: solid 1px;
+    border-color: rgb(202, 204, 206);
+    display: flex;
+    flex-direction: column;
+    /* border-radius: 5px; */
+
+
+
+    /* background-color: pink; */
+}
+
+.userNameBox {
+    /* background-color: #bfa; */
+    width: 10vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px;
+    border-color: rgb(202, 204, 206);
+    /* margin-bottom: 1vh; */
+    padding: 0 .5vw;
+    transition: .5s;
+    cursor: pointer;
+
+    /* box-shadow: 1px 1px 5px rgb(0, 0, 0, .3); */
+    /* background-image:linear-gradient(0deg,#cfd9df 0%, #e2ebf0 100%); */
+
+
+}
+
+.userNameBox:hover {
+    /* background-color: #9eefff; */
+    background-color: black;
+    color: #fff;
+    
+
+}
+
+.talk_con {
+    
+    background-color: #fff;
+    width: 35vw;
+    height: 70vh;
+    border-radius: 5px;
+    padding: 2vh 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+}
+
+.talk_show {
+    /* background-color: #bfa; */
+    border: 3px;
+    width: 90%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 2vw;
+    
+}
+
+.chatBegin {
+    color: rgb(179, 177, 177);
+    font-size: small;
+    font-weight: lighter;
+}
+
+.talk_send {
+    width: 90%;
+    height: 20vh;
+    margin: 0 2vw;
+    /* background-color: pink; */
+    border-top: solid 1px;
+    border-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.talk_btn {
+    width: 100%;
+    height: 5vh;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.atalk {
+    /* text-align: right; */
+    width: 100%;
+    justify-content: start;
+    display: flex;
+    margin: 1vh 1vw;
+    /* background-color: antiquewhite; */
+
+
+}
+
+
+.atalk span {
+    box-shadow: 0 0 10px rgb(0, 0, 0, .3);
+    display: inline-block;
+    max-width: 25vw;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: rgb(26, 180, 26);
+    color: #fff;
+}
+
+.btalk {
+    /* text-align: right; */
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin: 1vh 1vw;
+    /* background-color: antiquewhite; */
+}
+.btalk span {
+    background-color: #4096ff;
+    color: #fff;
+    box-shadow: 0 0 10px rgb(0, 0, 0, .3);
+    display: inline-block;
+    max-width: 25vw;
+    border-radius: 5px;
+    padding: 5px 10px;
+
+
+}
+
+.titleBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: #bfa; */
+    border-bottom: solid 1px;
+    border-color: rgb(202, 204, 206);
+    /* box-shadow: 0 1px 1px rgb(0, 0, 0, .1); */
+
+
+
+    height: 6vh;
+}
+
+.chatName {
+    width: 40vw;
+    text-align: center;
+    font-size: larger;
+}
+
+.closeBtn {
+    border: none;
+    background-color: rgb(0, 0, 0, 0);
+    font-size: larger;
+    width: 2vw;
+    cursor: pointer;
+
+}
+
+.sendBtn {
+    width: 7vw;
+}
+
+

@@ -1,0 +1,130 @@
+.personalHeader {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+.contentBox {
+    /* background-color: #bfa; */
+    width: 100vw;
+    height: 92vh;
+    /* margin-top: 2vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.infoBox {
+    background-color: white;
+    width: 24vw;
+    height: 84vh;
+    margin-right: 1vw;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.userAvatar {
+    margin-top: 3vh;
+    width: 200px;
+    height: 200px;
+}
+
+.basicInfo {
+    /* background-color: pink; */
+    width: 18vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
+.contentStyle {
+    /* background-color: rgb(255, 255, 255, 0); */
+    background-image:linear-gradient(25deg,#a8edea 0%, #fed6e3 100%);
+}
+
+.orderBox {
+    width: 70vw;
+    background-color: white;
+    height: 84vh;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    /* margin-right: 5vw; */
+}
+
+.selectNav {
+    /* background-color: #bfa; */
+    /* width: 30vw; */
+    /* height: 5vh; */
+    /* margin-top: 2vh; */
+    width: 70vw;
+    padding-left: 2vw;
+}
+
+.contentBox1 {
+    width: 68vw;
+    /* background-color: #bfa; */
+    height: 70vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    overflow: auto;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    /* background-color: #f50; */
+}
+
+::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #aaa;
+    border-radius: 10px;
+}
+  
+.commentCard {
+    margin: 3vh 1vw;
+}
+
+.chooseNav {
+    width: 20vw;
+}
+
+.btnBox {
+    display: flex;
+    justify-content: space-around;
+    /* background-color: #bfa; */
+    width: 20vw;
+    height: 18vh;
+}
+
+.releaseBtn {
+    width: 7vw;
+    height: 5vh;
+}
+
+.editBtn {
+    /* width: 3vw; */
+    /* height: ; */
+}

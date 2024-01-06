@@ -1,0 +1,10 @@
+.card {
+    margin: 3vh 1vw;
+    width: 19vw;
+    height: 34vh;
+    box-shadow: 0 0 10px rgb(0, 0, 0, .3);
+}
+
+.imgSize {
+    height: 25vh;
+}

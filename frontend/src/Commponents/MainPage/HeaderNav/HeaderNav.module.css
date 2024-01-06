@@ -1,0 +1,26 @@
+.header {
+    /* position: fixed; */
+    /* z-index: 999; */
+    background-color: #fff;
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.loginBox {
+    width: 7vw;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: larger;
+}
+
+.dropdownBox {
+    /* background-color: #bfa; */
+}
+
+.selectBtn {
+    color: black;
+}

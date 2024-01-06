@@ -1,0 +1,78 @@
+.loginBox {
+    position: relative;
+    top: 20vh;
+    left: 25vw;
+    width: 50vw;
+    height: 55vh;
+    background-color: white;
+    box-shadow: 0 0 10px rgb(0, 0, 0, .3);
+    display: flex;
+}
+
+.loginIntro {
+    margin: 5vh .5vw;
+    width: 18vw;
+    height: 45vh;
+    border-right: solid 1px;
+    border-color: gray;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    
+    /* background-color: #bfa; */
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+
+    margin: 5vh 2vw;
+    padding: 2vh 0;
+    width: 20vw;
+    height: 40vh;
+    /* background-color: #bfa; */
+
+}
+
+.pwdForget {
+    display: flex;
+    justify-content: end;
+    /* background-color: pink; */
+    /* padding-right: 20%; */
+}
+
+.loginBtn {
+    display: flex;
+    justify-content: center;
+}
+
+.loginBtn1 {
+    width: 10vw;
+}
+
+.signupLink {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.formSpace {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.introTitle {
+    font-size: 2.5vh;
+    font-weight: bold;
+    margin: 5vh 0 4vh 0;
+    /* align-items: center; */
+}
+
+.intro1 {
+    font-size: 1.5vh;
+    font-weight: bold;
+    margin: 1.5vh 0;
+    /* display: flex;
+    align-items: center; */
+}
